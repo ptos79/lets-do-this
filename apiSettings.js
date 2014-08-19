@@ -9,7 +9,7 @@
 
 var fs = require('fs');
 var _ = require('underscore');
-
+//a comment
 module.exports.apiSettings = {
     descriptors: loadDescriptors(),
     swaggerUI: loadSwaggerUI(),
