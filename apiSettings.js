@@ -15,7 +15,7 @@ module.exports.apiSettings = {
     swaggerUI: loadSwaggerUI(),
     apiDocs: loadApiDocs()
 };
-
+//this is another comment
 function loadDescriptors() {
     var apiFiles = fs.readdirSync('./static/listings/');
     apiFiles = _.reject(apiFiles, function(file) {
